@@ -39,7 +39,9 @@ nav a{
 }
 
 .left img{
-    filter: grayscale(45%);
+    filter: grayscale(65%);
+    border: 3px solid red;
+    cursor: default;
 }
 
 .right img{
@@ -54,7 +56,7 @@ nav img{
     object-fit: cover;
 }
 
-nav img:hover{
+nav .right img:hover{
     transition: 0.4s;
     filter: grayscale(0%);
     border: 3px solid #fff;
@@ -63,7 +65,7 @@ nav img:hover{
 /*Conteudo Central*/
 
 .content{
-    max-width: 1280px;
+    max-width: 1150px;
     margin: 0 auto;
 }
 
@@ -76,6 +78,19 @@ nav img:hover{
 
 .explicacao p{
     color: #2e1f1b;
+    font-size: 18px;
+}
+
+.explicacao ul{
+    width: 85%;
+    margin: 0 auto;
+    padding: 8px;
+    font-size: 17px;
+}
+
+.explicacao li{
+    color: #2e1f1b;
+    padding: 12px;
 }
 
 /* Boxes */
@@ -100,7 +115,7 @@ nav img:hover{
 .box{
     margin: 7px auto;
     text-align: justify;
-    width: 33%;
+    width: 32%;
     height: 330px;
     line-height: 30px;
     display: flex;
@@ -112,6 +127,10 @@ nav img:hover{
     box-shadow:5px 5px 10px #2e1f1b;
 	position:relative;
     padding:20px;
+}
+
+.box.pg2{
+    height: 420px;
 }
 
 .box p{
@@ -177,4 +196,51 @@ footer{
     justify-content: center;
     background-color: #2e1f1b;
     color: #fff;
+}
+
+@media screen and (max-width: 1200px) {
+    .content{
+        width: 90%;
+    }
+
+    .content h1{
+        font-size: 20px;
+    }
+
+    .content p{
+        font-size: 13px;
+    }
+
+    .explicacao li{
+        font-size: 12px;
+        margin: 0 auto;
+    }
+
+    .box{
+        padding: 8px;
+    }
+
+    .box h2{
+        font-size: 15px;
+    }
+
+    .box p{
+        font-size: 12px;
+        line-height: 15px;
+    }
+
+    .final p{
+        font-size: 12px;
+    }
+
+    footer h3{
+        font-size: 13px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .box{
+        width: 80%;
+        height: 250px;
+    }
 }
