@@ -8,7 +8,11 @@
 /* Barra de Navegaçao */
 
 header{
-    color: #2e1f1b;
+    background-color: #2e1f1b;
+}
+
+header h1{
+    padding: 10px;
 }
 
 nav{
