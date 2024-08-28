@@ -8,7 +8,11 @@
 /* Barra de Navegaçao */
 
 header{
-    color: #2e1f1b;
+    background-color: #2e1f1b;
+}
+
+header h1{
+    padding: 10px;
 }
 
 nav{
@@ -116,7 +120,7 @@ nav .right img:hover{
     margin: 7px auto;
     text-align: justify;
     width: 32%;
-    height: 330px;
+    height: 360px;
     line-height: 30px;
     display: flex;
     flex-wrap: wrap;
@@ -130,7 +134,7 @@ nav .right img:hover{
 }
 
 .box.pg2{
-    height: 420px;
+    height: 450px;
 }
 
 .box p{
