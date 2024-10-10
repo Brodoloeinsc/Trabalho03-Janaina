@@ -119,7 +119,7 @@ nav .right img:hover{
 .box{
     margin: 7px auto;
     text-align: justify;
-    width: 32%;
+    width: 32%!important;
     height: 360px;
     line-height: 30px;
     display: flex;
@@ -187,6 +187,13 @@ nav .right img:hover{
 
 .final p{
     color: #2e1f1b;
+}
+
+/* Mudando no bootstrap */
+
+.btn.brown{
+    background-color: #2e1f1b!important;
+    color: #fff!important;
 }
 
 /* Footer */
